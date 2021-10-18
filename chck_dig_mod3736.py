@@ -26,6 +26,7 @@ def calc_check_digit(seq, alphabet=ALPHABET):  # see equation (19) on page 12 of
     return alphabet[indx]  # Neet trick for the values table 0 = 0, 1 = 1, 2 = 2, ..., A = 10, B = 11, C = 12, ..., X = 34, Y = 35, Z = 36
 
 
+# Run example
 if __name__ == "__main__":
     example_seq = '900001AXF'
     print("Example sequence:", example_seq)
